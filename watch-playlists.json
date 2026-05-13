@@ -18,6 +18,8 @@
       "slug": "studio-watch",
       "ghost_tag": "studio-watch",
       "rotation": "daily",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-studio-watch-fort-lauderdale-soundstage.jpg",
+      "hero_alt": "A Fort Lauderdale soundstage between takes with a cinema camera on tripod facing a teal cyc wall, palms visible through a warm-lit doorway, Sundaze Gazette Studio Watch.",
       "sources": [
         { "type": "approved_channel", "channel": "@StudioBinder", "url": "https://www.youtube.com/@StudioBinder" },
         { "type": "approved_channel", "channel": "@stagerunner", "url": "https://www.youtube.com/@stagerunner" },
@@ -31,6 +33,8 @@
       "slug": "film-creator-economy",
       "ghost_tag": "creator-economy",
       "rotation": "daily",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-film-creator-economy-broward-production-network.jpg",
+      "hero_alt": "South Florida creator economy editing suite with cinema production equipment and cinematic monitor lighting, Broward County, Sundaze Gazette Film and Creator Economy.",
       "sources": [
         { "type": "approved_channel", "channel": "@CorridorCrew", "url": "https://www.youtube.com/@CorridorCrew" },
         { "type": "approved_channel", "channel": "@filmriot", "url": "https://www.youtube.com/@filmriot" },
@@ -63,6 +67,8 @@
       "slug": "ai-content-technology",
       "ghost_tag": "ai-tech",
       "rotation": "daily",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-ai-content-technology-miami-dade-creator-desk.jpg",
+      "hero_alt": "AI content creation workstation with cinematic editing monitors and advanced creator tools in South Florida, Sundaze Gazette AI and Content Technology.",
       "sources": [
         { "type": "approved_channel", "channel": "Matt Wolfe / @mreflow", "url": "https://www.youtube.com/@mreflow" },
         { "type": "approved_channel", "channel": "The Next Wave / @TheNextWavePod", "url": "https://www.youtube.com/@TheNextWavePod" },
@@ -78,6 +84,8 @@
       "slug": "business-entrepreneurs",
       "ghost_tag": "business",
       "rotation": "daily",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-business-entrepreneurs-fort-lauderdale-media-office.jpg",
+      "hero_alt": "Luxury South Florida media entrepreneur conference room with cinematic production atmosphere, Fort Lauderdale, Sundaze Gazette Business and Entrepreneurs.",
       "sources": [
         { "type": "approved_channel", "channel": "Building a Better Broward Podcast", "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast" },
         { "type": "approved_source", "channel": "The SoFlo Circle", "url": "https://podcasts.apple.com/us/podcast/the-soflo-circle/id1483336989" },
@@ -110,6 +118,8 @@
       "slug": "government-incentives",
       "ghost_tag": "cra-government",
       "rotation": "daily",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-government-incentives-broward-civic-development.jpg",
+      "hero_alt": "Modern Broward civic and economic development architecture at dusk with dramatic lighting and reflections, Sundaze Gazette Government and Incentives.",
       "sources": [
         { "type": "approved_channel", "channel": "@BuildingaBetterBrowardPodcast", "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast" },
         { "type": "approved_channel", "channel": "Broward County OESBD", "url": "https://www.youtube.com/channel/UC3ArvPyZb_M78rKyvGDtSJQ" },
@@ -214,88 +224,14 @@
       "slug": "events-community",
       "ghost_tag": "events",
       "rotation": "daily",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-events-community-pompano-beach-waterfront.jpg",
+      "hero_alt": "South Florida waterfront event venue at sunset with palm trees and cinematic ambient lighting, Pompano Beach, Sundaze Gazette Events and Community.",
       "sources": [
         { "type": "approved_channel", "channel": "Broward Center", "url": "https://www.youtube.com/user/BrowardCenter" },
         { "type": "approved_channel", "channel": "Visit Lauderdale", "url": "https://www.youtube.com/@visitlauderdale" },
         { "type": "approved_channel", "channel": "South Florida PBS / Check, Please! South Florida", "url": "https://www.youtube.com/@SouthFloridaPBS" }
       ],
       "videos": [
-        {
-          "video_id": "4K_4BLOpLr0",
-          "title": "Review of The Katherine in Fort Lauderdale | Check, Please! South Florida",
-          "channel_title": "South Florida PBS",
-          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
-          "watch_url": "https://www.youtube.com/watch?v=4K_4BLOpLr0",
-          "embed_url": "https://www.youtube-nocookie.com/embed/4K_4BLOpLr0",
-          "thumbnail": "https://img.youtube.com/vi/4K_4BLOpLr0/maxresdefault.jpg",
-          "duration": "unknown",
-          "published_at": "unknown",
-          "source_type": "public-embed",
-          "category": "events-community",
-          "subcategory": "food-places",
-          "show": "curated-youtube",
-          "approved": true,
-          "approved_by": "brian-pending-final-review",
-          "approved_at": "2026-05-13",
-          "attribution_required": true
-        },
-        {
-          "video_id": "7jfqugA-WFM",
-          "title": "Review of Even Keel Fish Shack in Fort Lauderdale | Check, Please! South Florida",
-          "channel_title": "South Florida PBS",
-          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
-          "watch_url": "https://www.youtube.com/watch?v=7jfqugA-WFM",
-          "embed_url": "https://www.youtube-nocookie.com/embed/7jfqugA-WFM",
-          "thumbnail": "https://img.youtube.com/vi/7jfqugA-WFM/maxresdefault.jpg",
-          "duration": "unknown",
-          "published_at": "unknown",
-          "source_type": "public-embed",
-          "category": "events-community",
-          "subcategory": "food-places",
-          "show": "curated-youtube",
-          "approved": true,
-          "approved_by": "brian-pending-final-review",
-          "approved_at": "2026-05-13",
-          "attribution_required": true
-        },
-        {
-          "video_id": "zrcwpshw-qM",
-          "title": "Review of Casa Monarca Mexican Restaurant in Fort Lauderdale | Check, Please! South Florida",
-          "channel_title": "South Florida PBS",
-          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
-          "watch_url": "https://www.youtube.com/watch?v=zrcwpshw-qM",
-          "embed_url": "https://www.youtube-nocookie.com/embed/zrcwpshw-qM",
-          "thumbnail": "https://img.youtube.com/vi/zrcwpshw-qM/maxresdefault.jpg",
-          "duration": "unknown",
-          "published_at": "unknown",
-          "source_type": "public-embed",
-          "category": "events-community",
-          "subcategory": "food-places",
-          "show": "curated-youtube",
-          "approved": true,
-          "approved_by": "brian-pending-final-review",
-          "approved_at": "2026-05-13",
-          "attribution_required": true
-        },
-        {
-          "video_id": "rVOAwQyOS6g",
-          "title": "Review of The Modern Rose Restaurant in Fort Lauderdale | Check, Please! South Florida",
-          "channel_title": "South Florida PBS",
-          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
-          "watch_url": "https://www.youtube.com/watch?v=rVOAwQyOS6g",
-          "embed_url": "https://www.youtube-nocookie.com/embed/rVOAwQyOS6g",
-          "thumbnail": "https://img.youtube.com/vi/rVOAwQyOS6g/maxresdefault.jpg",
-          "duration": "unknown",
-          "published_at": "unknown",
-          "source_type": "public-embed",
-          "category": "events-community",
-          "subcategory": "food-places",
-          "show": "curated-youtube",
-          "approved": true,
-          "approved_by": "brian-pending-final-review",
-          "approved_at": "2026-05-13",
-          "attribution_required": true
-        },
         {
           "video_id": "amK5-EbyMoU",
           "title": "The Broward Center for the Performing Arts: A Hub of Culture, Entertainment, and Education",
@@ -315,6 +251,127 @@
           "attribution_required": true
         }
       ]
+    },
+    {
+      "label": "Food + Places",
+      "slug": "food-places",
+      "ghost_tag": "food-places",
+      "rotation": "daily",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-food-places-fort-lauderdale-restaurant-editorial.jpg",
+      "hero_alt": "Upscale Fort Lauderdale restaurant interior with cinematic hospitality lighting and waterfront atmosphere, Sundaze Gazette Food and Places.",
+      "sources": [
+        { "type": "approved_channel", "channel": "South Florida PBS / Check, Please! South Florida", "url": "https://www.youtube.com/@SouthFloridaPBS" },
+        { "type": "approved_channel", "channel": "Visit Lauderdale", "url": "https://www.youtube.com/@visitlauderdale" }
+      ],
+      "videos": [
+        {
+          "video_id": "4K_4BLOpLr0",
+          "title": "Review of The Katherine in Fort Lauderdale | Check, Please! South Florida",
+          "channel_title": "South Florida PBS",
+          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
+          "watch_url": "https://www.youtube.com/watch?v=4K_4BLOpLr0",
+          "embed_url": "https://www.youtube-nocookie.com/embed/4K_4BLOpLr0",
+          "thumbnail": "https://img.youtube.com/vi/4K_4BLOpLr0/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "food-places",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "7jfqugA-WFM",
+          "title": "Review of Even Keel Fish Shack in Fort Lauderdale | Check, Please! South Florida",
+          "channel_title": "South Florida PBS",
+          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
+          "watch_url": "https://www.youtube.com/watch?v=7jfqugA-WFM",
+          "embed_url": "https://www.youtube-nocookie.com/embed/7jfqugA-WFM",
+          "thumbnail": "https://img.youtube.com/vi/7jfqugA-WFM/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "food-places",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "zrcwpshw-qM",
+          "title": "Review of Casa Monarca Mexican Restaurant in Fort Lauderdale | Check, Please! South Florida",
+          "channel_title": "South Florida PBS",
+          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
+          "watch_url": "https://www.youtube.com/watch?v=zrcwpshw-qM",
+          "embed_url": "https://www.youtube-nocookie.com/embed/zrcwpshw-qM",
+          "thumbnail": "https://img.youtube.com/vi/zrcwpshw-qM/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "food-places",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "rVOAwQyOS6g",
+          "title": "Review of The Modern Rose Restaurant in Fort Lauderdale | Check, Please! South Florida",
+          "channel_title": "South Florida PBS",
+          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
+          "watch_url": "https://www.youtube.com/watch?v=rVOAwQyOS6g",
+          "embed_url": "https://www.youtube-nocookie.com/embed/rVOAwQyOS6g",
+          "thumbnail": "https://img.youtube.com/vi/rVOAwQyOS6g/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "food-places",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        }
+      ]
+    }
+  ],
+  "shows": [
+    {
+      "label": "Building a Better Broward",
+      "slug": "building-a-better-broward",
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-building-better-broward-broward-development.jpg"
+    },
+    {
+      "label": "RockSoup TV",
+      "slug": "rocksoup-tv",
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-rocksoup-tv-fort-lauderdale-production-network.jpg"
+    },
+    {
+      "label": "AI Creator Spotlight",
+      "slug": "ai-creator-spotlight",
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-ai-creator-spotlight-miami-content-studio.jpg"
+    },
+    {
+      "label": "Stage Runner Sessions",
+      "slug": "stage-runner-sessions",
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-stage-runner-sessions-fort-lauderdale-soundstage.jpg"
+    },
+    {
+      "label": "Florida Film Watch",
+      "slug": "florida-film-watch",
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-florida-film-watch-broward-cinema-production.jpg"
+    },
+    {
+      "label": "The Sundaze Podcast",
+      "slug": "sundaze-podcast",
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-sundaze-podcast-south-florida-studio.jpg"
+    }
+  ]
+}
     }
   ]
 }
