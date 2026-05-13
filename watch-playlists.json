@@ -1,0 +1,94 @@
+ "$schema_version": "1.0",
+  "generated_at": "2026-05-13T00:00:00-04:00",
+  "rotation_timezone": "America/New_York",
+  "featured_pool": {
+    "label": "Watch master pool — used for hero when no recent Ghost post tagged 'watch' exists",
+    "videos": []
+  },
+  "categories": [
+    {
+      "label": "Studio Watch",
+      "slug": "studio-watch",
+      "ghost_tag": "studio-watch",
+      "rotation": "daily",
+      "sources": [
+        { "type": "approved_channel", "channel": "@stagerunner",  "url": "https://www.youtube.com/@stagerunner" },
+        { "type": "approved_channel", "channel": "@StudioBinder", "url": "https://www.youtube.com/@StudioBinder" }
+      ],
+      "videos": []
+    },
+    {
+      "label": "Film & Creator Economy",
+      "slug": "film-creator-economy",
+      "ghost_tag": "creator-economy",
+      "rotation": "daily",
+      "sources": [
+        { "type": "approved_channel", "channel": "@CorridorCrew", "url": "https://www.youtube.com/@CorridorCrew" },
+        { "type": "approved_channel", "channel": "@filmriot",     "url": "https://www.youtube.com/@filmriot" },
+        { "type": "approved_channel", "channel": "@filmcourage",  "url": "https://www.youtube.com/@filmcourage" }
+      ],
+      "videos": []
+    },
+    {
+      "label": "AI + Content Technology",
+      "slug": "ai-content-technology",
+      "ghost_tag": "ai-tech",
+      "rotation": "daily",
+      "sources": [
+        { "type": "approved_channel", "channel": "@mreflow",            "url": "https://www.youtube.com/@mreflow" },
+        { "type": "approved_channel", "channel": "@thenextwavepod",     "url": "https://www.youtube.com/@thenextwavepod" },
+        { "type": "approved_channel", "channel": "@curiousrefuge",      "url": "https://www.youtube.com/@curiousrefuge" },
+        { "type": "approved_channel", "channel": "@theoreticallymedia", "url": "https://www.youtube.com/@theoreticallymedia" }
+      ],
+      "videos": []
+    },
+    {
+      "label": "Business + Entrepreneurs",
+      "slug": "business-entrepreneurs",
+      "ghost_tag": "business",
+      "rotation": "daily",
+      "sources": [
+        { "type": "approved_channel", "channel": "@variety",          "url": "https://www.youtube.com/@variety" },
+        { "type": "approved_channel", "channel": "@DeadlineHollywood","url": "https://www.youtube.com/@DeadlineHollywood" }
+      ],
+      "videos": []
+    },
+    {
+      "label": "Government + Incentives",
+      "slug": "government-incentives",
+      "ghost_tag": "cra-government",
+      "rotation": "daily",
+      "sources": [
+        { "type": "approved_channel", "channel": "@BuildingaBetterBrowardPodcast", "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast" }
+      ],
+      "videos": [
+        {
+          "video_id": "Z3iIibT0wcI",
+          "title": "Empowering Futures: Inside OIC with President & CEO Newton Sanon",
+          "channel_title": "Building a Better Broward Podcast",
+          "channel_url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast",
+          "watch_url": "https://www.youtube.com/watch?v=Z3iIibT0wcI",
+          "embed_url": "https://www.youtube-nocookie.com/embed/Z3iIibT0wcI",
+          "thumbnail": "https://img.youtube.com/vi/Z3iIibT0wcI/maxresdefault.jpg",
+          "duration": "35:25",
+          "published_at": "2025-11-04",
+          "source_type": "public-embed",
+          "category": "government-incentives",
+          "show": "show-building-a-better-broward",
+          "approved": true,
+          "approved_by": "brian",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        }
+      ]
+    },
+    {
+      "label": "Events + Community",
+      "slug": "events-community",
+      "ghost_tag": "events",
+      "rotation": "daily",
+      "sources": [],
+      "videos": []
+    }
+  ]
+}
