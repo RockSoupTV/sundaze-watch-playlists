@@ -1,6 +1,13 @@
- "$schema_version": "1.0",
+{
+  "$schema_version": "1.1",
   "generated_at": "2026-05-13T00:00:00-04:00",
   "rotation_timezone": "America/New_York",
+  "editorial_rules": {
+    "approval_required": true,
+    "approved_field_required": true,
+    "allowed_embed_provider": "youtube-nocookie",
+    "notes": "YouTube videos only for automated rotation. TikTok, Instagram, and Facebook should remain manual editorial embeds until theme support is added."
+  },
   "featured_pool": {
     "label": "Watch master pool — used for hero when no recent Ghost post tagged 'watch' exists",
     "videos": []
@@ -12,8 +19,10 @@
       "ghost_tag": "studio-watch",
       "rotation": "daily",
       "sources": [
-        { "type": "approved_channel", "channel": "@stagerunner",  "url": "https://www.youtube.com/@stagerunner" },
-        { "type": "approved_channel", "channel": "@StudioBinder", "url": "https://www.youtube.com/@StudioBinder" }
+        { "type": "approved_channel", "channel": "@StudioBinder", "url": "https://www.youtube.com/@StudioBinder" },
+        { "type": "approved_channel", "channel": "@stagerunner", "url": "https://www.youtube.com/@stagerunner" },
+        { "type": "approved_channel", "channel": "Film Florida", "url": "https://filmflorida.org/podcast/" },
+        { "type": "approved_channel", "channel": "Film Lauderdale", "url": "https://www.youtube.com/@filmlauderdale" }
       ],
       "videos": []
     },
@@ -24,10 +33,30 @@
       "rotation": "daily",
       "sources": [
         { "type": "approved_channel", "channel": "@CorridorCrew", "url": "https://www.youtube.com/@CorridorCrew" },
-        { "type": "approved_channel", "channel": "@filmriot",     "url": "https://www.youtube.com/@filmriot" },
-        { "type": "approved_channel", "channel": "@filmcourage",  "url": "https://www.youtube.com/@filmcourage" }
+        { "type": "approved_channel", "channel": "@filmriot", "url": "https://www.youtube.com/@filmriot" },
+        { "type": "approved_channel", "channel": "@filmcourage", "url": "https://www.youtube.com/@filmcourage" },
+        { "type": "approved_channel", "channel": "@StudioBinder", "url": "https://www.youtube.com/@StudioBinder" }
       ],
-      "videos": []
+      "videos": [
+        {
+          "video_id": "F5IwDmSPb0Q",
+          "title": "VFX Artists React to Bad & Great CGI 147",
+          "channel_title": "Corridor Crew",
+          "channel_url": "https://www.youtube.com/@CorridorCrew",
+          "watch_url": "https://www.youtube.com/watch?v=F5IwDmSPb0Q",
+          "embed_url": "https://www.youtube-nocookie.com/embed/F5IwDmSPb0Q",
+          "thumbnail": "https://img.youtube.com/vi/F5IwDmSPb0Q/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "2024-08-31",
+          "source_type": "public-embed",
+          "category": "film-creator-economy",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        }
+      ]
     },
     {
       "label": "AI + Content Technology",
@@ -35,10 +64,12 @@
       "ghost_tag": "ai-tech",
       "rotation": "daily",
       "sources": [
-        { "type": "approved_channel", "channel": "@mreflow",            "url": "https://www.youtube.com/@mreflow" },
-        { "type": "approved_channel", "channel": "@thenextwavepod",     "url": "https://www.youtube.com/@thenextwavepod" },
-        { "type": "approved_channel", "channel": "@curiousrefuge",      "url": "https://www.youtube.com/@curiousrefuge" },
-        { "type": "approved_channel", "channel": "@theoreticallymedia", "url": "https://www.youtube.com/@theoreticallymedia" }
+        { "type": "approved_channel", "channel": "Matt Wolfe / @mreflow", "url": "https://www.youtube.com/@mreflow" },
+        { "type": "approved_channel", "channel": "The Next Wave / @TheNextWavePod", "url": "https://www.youtube.com/@TheNextWavePod" },
+        { "type": "approved_channel", "channel": "Curious Refuge", "url": "https://www.youtube.com/@curiousrefuge" },
+        { "type": "approved_channel", "channel": "Theoretically Media", "url": "https://www.youtube.com/@theoreticallymedia" },
+        { "type": "approved_channel", "channel": "AI Explained", "url": "https://www.youtube.com/@aiexplained-official" },
+        { "type": "approved_channel", "channel": "Skill Leap AI", "url": "https://www.youtube.com/@SkillLeapAI" }
       ],
       "videos": []
     },
@@ -48,10 +79,31 @@
       "ghost_tag": "business",
       "rotation": "daily",
       "sources": [
-        { "type": "approved_channel", "channel": "@variety",          "url": "https://www.youtube.com/@variety" },
-        { "type": "approved_channel", "channel": "@DeadlineHollywood","url": "https://www.youtube.com/@DeadlineHollywood" }
+        { "type": "approved_channel", "channel": "Building a Better Broward Podcast", "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast" },
+        { "type": "approved_source", "channel": "The SoFlo Circle", "url": "https://podcasts.apple.com/us/podcast/the-soflo-circle/id1483336989" },
+        { "type": "approved_source", "channel": "Kind of a Big Deal Podcast", "url": "https://www.miramarpembrokepines.org/podcast.html" },
+        { "type": "approved_source", "channel": "Strive305", "url": "https://www.strive305.com" }
       ],
-      "videos": []
+      "videos": [
+        {
+          "video_id": "YMmHHPslotQ",
+          "title": "CareerSource Broward Employer Services",
+          "channel_title": "CareerSource Broward",
+          "channel_url": "https://www.youtube.com/channel/UCjOpjpd2bIv7CzoLn0XyUOw",
+          "watch_url": "https://www.youtube.com/watch?v=YMmHHPslotQ",
+          "embed_url": "https://www.youtube-nocookie.com/embed/YMmHHPslotQ",
+          "thumbnail": "https://img.youtube.com/vi/YMmHHPslotQ/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "business-entrepreneurs",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        }
+      ]
     },
     {
       "label": "Government + Incentives",
@@ -59,7 +111,10 @@
       "ghost_tag": "cra-government",
       "rotation": "daily",
       "sources": [
-        { "type": "approved_channel", "channel": "@BuildingaBetterBrowardPodcast", "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast" }
+        { "type": "approved_channel", "channel": "@BuildingaBetterBrowardPodcast", "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast" },
+        { "type": "approved_channel", "channel": "Broward County OESBD", "url": "https://www.youtube.com/channel/UC3ArvPyZb_M78rKyvGDtSJQ" },
+        { "type": "approved_channel", "channel": "CareerSource Broward", "url": "https://www.youtube.com/channel/UCjOpjpd2bIv7CzoLn0XyUOw" },
+        { "type": "approved_source", "channel": "OIC of South Florida", "url": "https://oicsfl.org" }
       ],
       "videos": [
         {
@@ -79,6 +134,78 @@
           "approved_by": "brian",
           "approved_at": "2026-05-13",
           "attribution_required": true
+        },
+        {
+          "video_id": "GFoCKNOHvts",
+          "title": "Small Business Micro Grant Pilot Program Technical Assistance",
+          "channel_title": "Broward County OESBD",
+          "channel_url": "https://www.youtube.com/channel/UC3ArvPyZb_M78rKyvGDtSJQ",
+          "watch_url": "https://www.youtube.com/watch?v=GFoCKNOHvts",
+          "embed_url": "https://www.youtube-nocookie.com/embed/GFoCKNOHvts",
+          "thumbnail": "https://img.youtube.com/vi/GFoCKNOHvts/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "government-incentives",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "Xr3VXMkgACY",
+          "title": "Small Business Micro-Grant Pilot Program Application Training",
+          "channel_title": "Broward County OESBD",
+          "channel_url": "https://www.youtube.com/channel/UC3ArvPyZb_M78rKyvGDtSJQ",
+          "watch_url": "https://www.youtube.com/watch?v=Xr3VXMkgACY",
+          "embed_url": "https://www.youtube-nocookie.com/embed/Xr3VXMkgACY",
+          "thumbnail": "https://img.youtube.com/vi/Xr3VXMkgACY/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "government-incentives",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "spsuBa2aOvA",
+          "title": "The Source Podcast Episode 5 - Inside CareerSource Broward's AI Playbook for Small to Medium-Size Businesses",
+          "channel_title": "CareerSource Broward",
+          "channel_url": "https://www.youtube.com/channel/UCjOpjpd2bIv7CzoLn0XyUOw",
+          "watch_url": "https://www.youtube.com/watch?v=spsuBa2aOvA",
+          "embed_url": "https://www.youtube-nocookie.com/embed/spsuBa2aOvA",
+          "thumbnail": "https://img.youtube.com/vi/spsuBa2aOvA/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "government-incentives",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "oIjoFsigbkc",
+          "title": "The Source Podcast Episode 4 - OJT Success Stories",
+          "channel_title": "CareerSource Broward",
+          "channel_url": "https://www.youtube.com/channel/UCjOpjpd2bIv7CzoLn0XyUOw",
+          "watch_url": "https://www.youtube.com/watch?v=oIjoFsigbkc",
+          "embed_url": "https://www.youtube-nocookie.com/embed/oIjoFsigbkc",
+          "thumbnail": "https://img.youtube.com/vi/oIjoFsigbkc/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "government-incentives",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
         }
       ]
     },
@@ -87,8 +214,107 @@
       "slug": "events-community",
       "ghost_tag": "events",
       "rotation": "daily",
-      "sources": [],
-      "videos": []
+      "sources": [
+        { "type": "approved_channel", "channel": "Broward Center", "url": "https://www.youtube.com/user/BrowardCenter" },
+        { "type": "approved_channel", "channel": "Visit Lauderdale", "url": "https://www.youtube.com/@visitlauderdale" },
+        { "type": "approved_channel", "channel": "South Florida PBS / Check, Please! South Florida", "url": "https://www.youtube.com/@SouthFloridaPBS" }
+      ],
+      "videos": [
+        {
+          "video_id": "4K_4BLOpLr0",
+          "title": "Review of The Katherine in Fort Lauderdale | Check, Please! South Florida",
+          "channel_title": "South Florida PBS",
+          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
+          "watch_url": "https://www.youtube.com/watch?v=4K_4BLOpLr0",
+          "embed_url": "https://www.youtube-nocookie.com/embed/4K_4BLOpLr0",
+          "thumbnail": "https://img.youtube.com/vi/4K_4BLOpLr0/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "events-community",
+          "subcategory": "food-places",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "7jfqugA-WFM",
+          "title": "Review of Even Keel Fish Shack in Fort Lauderdale | Check, Please! South Florida",
+          "channel_title": "South Florida PBS",
+          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
+          "watch_url": "https://www.youtube.com/watch?v=7jfqugA-WFM",
+          "embed_url": "https://www.youtube-nocookie.com/embed/7jfqugA-WFM",
+          "thumbnail": "https://img.youtube.com/vi/7jfqugA-WFM/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "events-community",
+          "subcategory": "food-places",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "zrcwpshw-qM",
+          "title": "Review of Casa Monarca Mexican Restaurant in Fort Lauderdale | Check, Please! South Florida",
+          "channel_title": "South Florida PBS",
+          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
+          "watch_url": "https://www.youtube.com/watch?v=zrcwpshw-qM",
+          "embed_url": "https://www.youtube-nocookie.com/embed/zrcwpshw-qM",
+          "thumbnail": "https://img.youtube.com/vi/zrcwpshw-qM/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "events-community",
+          "subcategory": "food-places",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "rVOAwQyOS6g",
+          "title": "Review of The Modern Rose Restaurant in Fort Lauderdale | Check, Please! South Florida",
+          "channel_title": "South Florida PBS",
+          "channel_url": "https://www.youtube.com/@SouthFloridaPBS",
+          "watch_url": "https://www.youtube.com/watch?v=rVOAwQyOS6g",
+          "embed_url": "https://www.youtube-nocookie.com/embed/rVOAwQyOS6g",
+          "thumbnail": "https://img.youtube.com/vi/rVOAwQyOS6g/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "events-community",
+          "subcategory": "food-places",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        },
+        {
+          "video_id": "amK5-EbyMoU",
+          "title": "The Broward Center for the Performing Arts: A Hub of Culture, Entertainment, and Education",
+          "channel_title": "Broward Center / public video source",
+          "channel_url": "https://www.youtube.com/user/BrowardCenter",
+          "watch_url": "https://www.youtube.com/watch?v=amK5-EbyMoU",
+          "embed_url": "https://www.youtube-nocookie.com/embed/amK5-EbyMoU",
+          "thumbnail": "https://img.youtube.com/vi/amK5-EbyMoU/maxresdefault.jpg",
+          "duration": "unknown",
+          "published_at": "unknown",
+          "source_type": "public-embed",
+          "category": "events-community",
+          "show": "curated-youtube",
+          "approved": true,
+          "approved_by": "brian-pending-final-review",
+          "approved_at": "2026-05-13",
+          "attribution_required": true
+        }
+      ]
     }
   ]
 }
