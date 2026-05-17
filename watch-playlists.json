@@ -1,6 +1,6 @@
 {
-  "$schema_version": "1.1",
-  "generated_at": "2026-05-13T00:00:00-04:00",
+  "$schema_version": "1.2",
+  "generated_at": "2026-05-17T00:00:00-04:00",
   "rotation_timezone": "America/New_York",
   "editorial_rules": {
     "approval_required": true,
@@ -9,7 +9,7 @@
     "notes": "YouTube videos only for automated rotation. TikTok, Instagram, and Facebook should remain manual editorial embeds until theme support is added."
   },
   "featured_pool": {
-    "label": "Watch master pool — used for hero when no recent Ghost post tagged 'watch' exists",
+    "label": "Watch master pool - used for hero when no recent Ghost post tagged 'watch' exists",
     "videos": []
   },
   "categories": [
@@ -18,28 +18,64 @@
       "slug": "studio-watch",
       "ghost_tag": "studio-watch",
       "rotation": "daily",
-      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-studio-watch-fort-lauderdale-soundstage.jpg",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-studio-watch-fort-lauderdale-soundstage.webp",
       "hero_alt": "A Fort Lauderdale soundstage between takes with a cinema camera on tripod facing a teal cyc wall, palms visible through a warm-lit doorway, Sundaze Gazette Studio Watch.",
       "sources": [
-        { "type": "approved_channel", "channel": "@StudioBinder", "url": "https://www.youtube.com/@StudioBinder" },
-        { "type": "approved_channel", "channel": "@stagerunner", "url": "https://www.youtube.com/@stagerunner" },
-        { "type": "approved_channel", "channel": "Film Florida", "url": "https://filmflorida.org/podcast/" },
-        { "type": "approved_channel", "channel": "Film Lauderdale", "url": "https://www.youtube.com/@filmlauderdale" }
+        {
+          "type": "approved_channel",
+          "channel": "@StudioBinder",
+          "url": "https://www.youtube.com/@StudioBinder"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "@stagerunner",
+          "url": "https://www.youtube.com/@stagerunner"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "Film Florida",
+          "url": "https://filmflorida.org/podcast/"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "Film Lauderdale",
+          "url": "https://www.youtube.com/@filmlauderdale"
+        }
       ],
-      "videos": []
+      "videos": [],
+      "hero_image_width": 1659,
+      "hero_image_height": 948,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "Film & Creator Economy",
       "slug": "film-creator-economy",
       "ghost_tag": "creator-economy",
       "rotation": "daily",
-      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-film-creator-economy-broward-production-network.jpg",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-film-creator-economy-broward-production-network.webp",
       "hero_alt": "South Florida creator economy editing suite with cinema production equipment and cinematic monitor lighting, Broward County, Sundaze Gazette Film and Creator Economy.",
       "sources": [
-        { "type": "approved_channel", "channel": "@CorridorCrew", "url": "https://www.youtube.com/@CorridorCrew" },
-        { "type": "approved_channel", "channel": "@filmriot", "url": "https://www.youtube.com/@filmriot" },
-        { "type": "approved_channel", "channel": "@filmcourage", "url": "https://www.youtube.com/@filmcourage" },
-        { "type": "approved_channel", "channel": "@StudioBinder", "url": "https://www.youtube.com/@StudioBinder" }
+        {
+          "type": "approved_channel",
+          "channel": "@CorridorCrew",
+          "url": "https://www.youtube.com/@CorridorCrew"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "@filmriot",
+          "url": "https://www.youtube.com/@filmriot"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "@filmcourage",
+          "url": "https://www.youtube.com/@filmcourage"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "@StudioBinder",
+          "url": "https://www.youtube.com/@StudioBinder"
+        }
       ],
       "videos": [
         {
@@ -60,37 +96,85 @@
           "approved_at": "2026-05-13",
           "attribution_required": true
         }
-      ]
+      ],
+      "hero_image_width": 1659,
+      "hero_image_height": 948,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "AI + Content Technology",
       "slug": "ai-content-technology",
       "ghost_tag": "ai-tech",
       "rotation": "daily",
-      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-ai-content-technology-miami-dade-creator-desk.jpg",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-ai-creator-spotlight-miami-content-studio.webp",
       "hero_alt": "AI content creation workstation with cinematic editing monitors and advanced creator tools in South Florida, Sundaze Gazette AI and Content Technology.",
       "sources": [
-        { "type": "approved_channel", "channel": "Matt Wolfe / @mreflow", "url": "https://www.youtube.com/@mreflow" },
-        { "type": "approved_channel", "channel": "The Next Wave / @TheNextWavePod", "url": "https://www.youtube.com/@TheNextWavePod" },
-        { "type": "approved_channel", "channel": "Curious Refuge", "url": "https://www.youtube.com/@curiousrefuge" },
-        { "type": "approved_channel", "channel": "Theoretically Media", "url": "https://www.youtube.com/@theoreticallymedia" },
-        { "type": "approved_channel", "channel": "AI Explained", "url": "https://www.youtube.com/@aiexplained-official" },
-        { "type": "approved_channel", "channel": "Skill Leap AI", "url": "https://www.youtube.com/@SkillLeapAI" }
+        {
+          "type": "approved_channel",
+          "channel": "Matt Wolfe / @mreflow",
+          "url": "https://www.youtube.com/@mreflow"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "The Next Wave / @TheNextWavePod",
+          "url": "https://www.youtube.com/@TheNextWavePod"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "Curious Refuge",
+          "url": "https://www.youtube.com/@curiousrefuge"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "Theoretically Media",
+          "url": "https://www.youtube.com/@theoreticallymedia"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "AI Explained",
+          "url": "https://www.youtube.com/@aiexplained-official"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "Skill Leap AI",
+          "url": "https://www.youtube.com/@SkillLeapAI"
+        }
       ],
-      "videos": []
+      "videos": [],
+      "hero_image_width": 1672,
+      "hero_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "Business + Entrepreneurs",
       "slug": "business-entrepreneurs",
       "ghost_tag": "business",
       "rotation": "daily",
-      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-business-entrepreneurs-fort-lauderdale-media-office.jpg",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-business-entrepreneurs-fort-lauderdale-media-office.webp",
       "hero_alt": "Luxury South Florida media entrepreneur conference room with cinematic production atmosphere, Fort Lauderdale, Sundaze Gazette Business and Entrepreneurs.",
       "sources": [
-        { "type": "approved_channel", "channel": "Building a Better Broward Podcast", "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast" },
-        { "type": "approved_source", "channel": "The SoFlo Circle", "url": "https://podcasts.apple.com/us/podcast/the-soflo-circle/id1483336989" },
-        { "type": "approved_source", "channel": "Kind of a Big Deal Podcast", "url": "https://www.miramarpembrokepines.org/podcast.html" },
-        { "type": "approved_source", "channel": "Strive305", "url": "https://www.strive305.com" }
+        {
+          "type": "approved_channel",
+          "channel": "Building a Better Broward Podcast",
+          "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast"
+        },
+        {
+          "type": "approved_source",
+          "channel": "The SoFlo Circle",
+          "url": "https://podcasts.apple.com/us/podcast/the-soflo-circle/id1483336989"
+        },
+        {
+          "type": "approved_source",
+          "channel": "Kind of a Big Deal Podcast",
+          "url": "https://www.miramarpembrokepines.org/podcast.html"
+        },
+        {
+          "type": "approved_source",
+          "channel": "Strive305",
+          "url": "https://www.strive305.com"
+        }
       ],
       "videos": [
         {
@@ -111,20 +195,40 @@
           "approved_at": "2026-05-13",
           "attribution_required": true
         }
-      ]
+      ],
+      "hero_image_width": 1660,
+      "hero_image_height": 947,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "Government + Incentives",
       "slug": "government-incentives",
       "ghost_tag": "cra-government",
       "rotation": "daily",
-      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-government-incentives-broward-civic-development.jpg",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-government-incentives-broward-civic-development.webp",
       "hero_alt": "Modern Broward civic and economic development architecture at dusk with dramatic lighting and reflections, Sundaze Gazette Government and Incentives.",
       "sources": [
-        { "type": "approved_channel", "channel": "@BuildingaBetterBrowardPodcast", "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast" },
-        { "type": "approved_channel", "channel": "Broward County OESBD", "url": "https://www.youtube.com/channel/UC3ArvPyZb_M78rKyvGDtSJQ" },
-        { "type": "approved_channel", "channel": "CareerSource Broward", "url": "https://www.youtube.com/channel/UCjOpjpd2bIv7CzoLn0XyUOw" },
-        { "type": "approved_source", "channel": "OIC of South Florida", "url": "https://oicsfl.org" }
+        {
+          "type": "approved_channel",
+          "channel": "@BuildingaBetterBrowardPodcast",
+          "url": "https://www.youtube.com/@BuildingaBetterBrowardPodcast"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "Broward County OESBD",
+          "url": "https://www.youtube.com/channel/UC3ArvPyZb_M78rKyvGDtSJQ"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "CareerSource Broward",
+          "url": "https://www.youtube.com/channel/UCjOpjpd2bIv7CzoLn0XyUOw"
+        },
+        {
+          "type": "approved_source",
+          "channel": "OIC of South Florida",
+          "url": "https://oicsfl.org"
+        }
       ],
       "videos": [
         {
@@ -217,19 +321,35 @@
           "approved_at": "2026-05-13",
           "attribution_required": true
         }
-      ]
+      ],
+      "hero_image_width": 1671,
+      "hero_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "Events + Community",
       "slug": "events-community",
       "ghost_tag": "events",
       "rotation": "daily",
-      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-events-community-pompano-beach-waterfront.jpg",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-events-community-pompano-beach-waterfront.webp",
       "hero_alt": "South Florida waterfront event venue at sunset with palm trees and cinematic ambient lighting, Pompano Beach, Sundaze Gazette Events and Community.",
       "sources": [
-        { "type": "approved_channel", "channel": "Broward Center", "url": "https://www.youtube.com/user/BrowardCenter" },
-        { "type": "approved_channel", "channel": "Visit Lauderdale", "url": "https://www.youtube.com/@visitlauderdale" },
-        { "type": "approved_channel", "channel": "South Florida PBS / Check, Please! South Florida", "url": "https://www.youtube.com/@SouthFloridaPBS" }
+        {
+          "type": "approved_channel",
+          "channel": "Broward Center",
+          "url": "https://www.youtube.com/user/BrowardCenter"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "Visit Lauderdale",
+          "url": "https://www.youtube.com/@visitlauderdale"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "South Florida PBS / Check, Please! South Florida",
+          "url": "https://www.youtube.com/@SouthFloridaPBS"
+        }
       ],
       "videos": [
         {
@@ -250,18 +370,30 @@
           "approved_at": "2026-05-13",
           "attribution_required": true
         }
-      ]
+      ],
+      "hero_image_width": 1672,
+      "hero_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "Food + Places",
       "slug": "food-places",
       "ghost_tag": "food-places",
       "rotation": "daily",
-      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-food-places-fort-lauderdale-restaurant-editorial.jpg",
+      "hero_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-food-places-fort-lauderdale-restaurant-editorial.webp",
       "hero_alt": "Upscale Fort Lauderdale restaurant interior with cinematic hospitality lighting and waterfront atmosphere, Sundaze Gazette Food and Places.",
       "sources": [
-        { "type": "approved_channel", "channel": "South Florida PBS / Check, Please! South Florida", "url": "https://www.youtube.com/@SouthFloridaPBS" },
-        { "type": "approved_channel", "channel": "Visit Lauderdale", "url": "https://www.youtube.com/@visitlauderdale" }
+        {
+          "type": "approved_channel",
+          "channel": "South Florida PBS / Check, Please! South Florida",
+          "url": "https://www.youtube.com/@SouthFloridaPBS"
+        },
+        {
+          "type": "approved_channel",
+          "channel": "Visit Lauderdale",
+          "url": "https://www.youtube.com/@visitlauderdale"
+        }
       ],
       "videos": [
         {
@@ -336,42 +468,73 @@
           "approved_at": "2026-05-13",
           "attribution_required": true
         }
-      ]
+      ],
+      "hero_image_width": 1672,
+      "hero_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     }
   ],
   "shows": [
     {
       "label": "Building a Better Broward",
       "slug": "building-a-better-broward",
-      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-building-better-broward-broward-development.jpg"
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-building-better-broward-broward-development.webp",
+      "tile_alt": "Cinematic Broward County development and civic growth artwork for Building a Better Broward.",
+      "tile_image_width": 1672,
+      "tile_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "RockSoup TV",
       "slug": "rocksoup-tv",
-      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-rocksoup-tv-fort-lauderdale-production-network.jpg"
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-rocksoup-tv-fort-lauderdale-production-network.webp",
+      "tile_alt": "Cinematic South Florida studio production artwork for RockSoup TV.",
+      "tile_image_width": 1672,
+      "tile_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "AI Creator Spotlight",
       "slug": "ai-creator-spotlight",
-      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-ai-creator-spotlight-miami-content-studio.jpg"
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-ai-creator-spotlight-miami-content-studio.webp",
+      "tile_alt": "Cinematic AI creator studio artwork for AI Creator Spotlight.",
+      "tile_image_width": 1672,
+      "tile_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "Stage Runner Sessions",
       "slug": "stage-runner-sessions",
-      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-stage-runner-sessions-fort-lauderdale-soundstage.jpg"
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-stage-runner-sessions-fort-lauderdale-soundstage.webp",
+      "tile_alt": "Cinematic Fort Lauderdale soundstage artwork for Stage Runner Sessions.",
+      "tile_image_width": 1672,
+      "tile_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "Florida Film Watch",
       "slug": "florida-film-watch",
-      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-florida-film-watch-broward-cinema-production.jpg"
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-florida-film-watch-broward-cinema-production.webp",
+      "tile_alt": "Cinematic Florida independent film production artwork for Florida Film Watch.",
+      "tile_image_width": 1672,
+      "tile_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     },
     {
       "label": "The Sundaze Podcast",
       "slug": "sundaze-podcast",
-      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-sundaze-podcast-south-florida-studio.jpg"
-    }
-  ]
-}
+      "tile_image": "https://cdn.jsdelivr.net/gh/RockSoupTV/sundaze-watch-playlists@main/images/sundaze-show-sundaze-podcast-south-florida-studio.webp",
+      "tile_alt": "Cinematic South Florida podcast studio artwork for The Sundaze Podcast.",
+      "tile_image_width": 1672,
+      "tile_image_height": 941,
+      "image_loading": "lazy",
+      "image_decoding": "async"
     }
   ]
 }
